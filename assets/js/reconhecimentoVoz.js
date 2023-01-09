@@ -1,3 +1,5 @@
+const elementoChute = document.querySelector('#chute')
+
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 
 const recognition = new SpeechRecognition();
@@ -7,5 +9,14 @@ recognition.start()
 recognition.addEventListener('result', onSpeak)
 
 function onSpeak(e) {
-    console.log(e.results[0][0].transcript)
+    const chute = e.results[0][0].transcript
+    exibeChuteNaTela(chute)
+}
+
+function exibeChuteNaTela(chute) {
+    elementoChute.innerHTML = `
+        <div>Você disse:</div>
+        <span class="box">${chute}</span>
+        <div>O número secreto é <i class="fa-solid fa-arrow-up"></i></div>
+    `
 }
