@@ -32,4 +32,14 @@ body {
             padding: 3rem;
         }
     }
+    .btn-jogar {
+        padding: 1rem 2rem;
+        font-size: $tamanho-texto;
+        border: none;
+        background-color: $cor-primaria;
+        color: $cor-fundo;
+        border-radius: 5px;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
 }
