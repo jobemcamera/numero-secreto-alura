@@ -1,0 +1,32 @@
+@import '../abstract/variaveis';
+
+body {
+    align-items: center;
+    background-color: $cor-fundo;
+    color: $cor-primaria;
+    display: flex;
+    flex-direction: column;
+    font-family: $fonte;
+    font-size: $tamanho-texto;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    text-align: center;
+    h1 {
+        font-size: $tamanho-texto * 5;
+    }
+    h3 {
+        font-size: $tamanho-texto * 2;
+        padding: 2rem;
+    }
+    .mensagem {
+        font-size: $tamanho-texto * 1.5;
+        .box {
+            border: 2px solid $cor-primaria;
+            display: inline-block;
+            font-size: $tamanho-texto * 4;
+            margin: 1.5rem 0;
+            padding: 3rem;
+        }
+    }
+}

@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <title>Número Secreto</title>
 </head>
 <body>
-    <h1>Acerta o Número Secreto</h1>
+    <h1>Acerte o Número Secreto</h1>
+
+    <h3>O número secreto está entre <span id="menor-valor"></span> e <span id="maior-valor"></span></h3>
+
+    <div id="chute" class="mensagem">
+        <div>Você disse:</div>
+        <span class="box">20</span>
+        <div>O número secreto é <i class="fa-solid fa-arrow-up"></i></div>
+    </div>
 </body>
 </html>
