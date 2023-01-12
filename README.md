@@ -6,7 +6,10 @@ Curso de JavaScript para Web com consumo da Web Speech API
 
 ## O jogo
 
-Para jogar, basta ativar o microfone pelo browser assim que for solicitado
+O jogo consiste em adivinhar o número secreto que o programa irá sortear aleatoriamente. 
+
+Para jogar, acesse [Número Secreto](https://numero-secreto-alura-liart.vercel.app/) ou clique no link que está na aba direita da página na sessão About (Sobre).
+Para começar a falar o número, basta ativar o microfone pelo browser assim que for solicitado
 
 ![image](https://user-images.githubusercontent.com/109925623/212203559-ebdee0be-ff97-4987-92fc-4b9825425508.png)
 
